@@ -176,5 +176,29 @@ auth_code=130149729103798799&nonce_str=azfkglz&total_fee=1&tp_trade_no=126014860
 			<td>109</th>
 			<td>支付金额必须小于等于5000000</th>
 		</tr> 
+		<tr>
+			<td>201</th>
+			<td>参数错误，详细看返回的msg内容</th>
+		</tr>
+		<tr>
+			<td>202</th>
+			<td>sign校验失败</th>
+		</tr>
+		<tr>
+			<td>203</th>
+			<td>mch_key非法</th>
+		</tr>
+		<tr>
+			<td>204</th>
+			<td>商户未配置，请联系商务</th>
+		</tr>
+		<tr>
+			<td>205</th>
+			<td>该商户未开通支付，请稍后再试</th>
+		</tr>
+		<tr>
+			<td>205</th>
+			<td>该订单已完成</th>
+		</tr>
     </thead>
 <table>
