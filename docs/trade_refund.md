@@ -90,12 +90,63 @@ nonce_str=abc&tp_trade_no=1494313896345122&mch_key=378284f3-31d4-4d75-8c3a-0c540
 		<tr>
 			<td>ret</th>
 			<td>数字</th>
-			<td>为0即支付成功，其他值为失败，详细错误情况msg字段</th>
+			<td>为0即退款成功，其他值为失败，详细错误情况msg字段</th>
 		</tr>
 		<tr>
 			<td>msg</th>
 			<td>字符串</th>
 			<td>返回信息，例如错误信息</th>
+		</tr>
+    </thead>
+<table>
+
+## ret返回值说明
+
+<table data-tablesaw-sortable>
+    <thead>
+        <tr>
+            <th data-tablesaw-sortable-col data-tablesaw-sortable-default-col>ret返回值</th>
+            <th data-tablesaw-sortable-col>描述</th>
+        </tr>
+		<tr>
+			<td>0</th>
+			<td>退款成功</th>
+		</tr>
+		<tr>
+			<td>201</th>
+			<td>参数错误，详细看返回的msg内容</th>
+		</tr>
+		<tr>
+			<td>202</th>
+			<td>sign校验失败</th>
+		</tr>
+		<tr>
+			<td>203</th>
+			<td>mch_key非法</th>
+		</tr>
+		<tr>
+			<td>204</th>
+			<td>商户未配置，请联系商务</th>
+		</tr>
+		<tr>
+			<td>205</th>
+			<td>该商户未开通支付，请稍后再试</th>
+		</tr>
+		<tr>
+			<td>207</th>
+			<td>订单不存在</th>
+		</tr>
+		<tr>
+			<td>208</th>
+			<td>订单未付款</th>
+		</tr>
+		<tr>
+			<td>209</th>
+			<td>订单已退款</th>
+		</tr>
+		<tr>
+			<td>210</th>
+			<td>退款仅支持当天发生的交易</th>
 		</tr>
     </thead>
 <table>

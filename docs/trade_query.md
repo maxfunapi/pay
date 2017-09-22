@@ -100,7 +100,7 @@ nonce_str=azfkglz&tp_trade_no=1484657785743165&mch_key=378284f3-31d4-4d75-8c3a-0
 		<tr>
 			<td>identifier</th>
 			<td>字符串</th>
-			<td>用户标识符, ret等于0才有返回</th>
+			<td>用户标识符</th>
 		</tr>
 		<tr>
 			<td>mch_key</th>
